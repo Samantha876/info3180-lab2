@@ -1,3 +1,65 @@
 body {
     padding-top: 5rem;
+    margin: 0;
+    font-size: 16px;
+}
+
+#header{
+    background: #e280a4;
+}
+
+#header img{
+    border-radius: 50%;
+    width:180px;
+    height:180px;
+}
+
+#header{
+    padding-top: 28px;
+    padding-bottom: 1px;
+    text-align: center;
+    color:white
+
+}
+div#header{
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+
+div#second{
+    border: 1px solid lightgray;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#bio{
+    text-align: center;
+    padding: 0px 45px 0px 45px;
+    color:gray;
+}
+
+#stats{
+    display:flex;
+    justify-content: center;
+}
+
+.stat{
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    color:gray;
+}
+
+button{
+    border-radius: 8px;
+    padding: 10px 48px;
+    background-color: #21b5e2;
+    color: white;
+    border:none;
+}
+
+div#button{
+    display: flex;
+    justify-content: center;
+    padding: 18px;
 }

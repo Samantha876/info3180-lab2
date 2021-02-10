@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block main %}
+
+<div id='header'>
+    <img src= "{{ url_for('static', filename='photoOfMe.jpg') }}">
+    <h4 class='header'>Samantha Chin</h4>
+    <p class='header'>@schin</p>
+    <p class='header'>Kingston, Jamaica</p>
+    <p> {{ date }} </p> 
+</div>
+
+<div id='second'>
+    <p id='bio'>I am a talented young woman who is currently studying website design and development. Contact me if you'd like to work together on a new project. </p>
+
+    <div id='stats'>
+        <p class='stat'> <b>7</b> <br>Posts</p>
+        <p class='stat'> <b>100</b> <br> Following</p>
+        <p class='stat'> <b>250</b> <br> Followers</p>
+    </div>
+
+    <div id='button'>
+        <button>Follow</button>
+    </div>
+
+</div>
+
+{% endblock %}
